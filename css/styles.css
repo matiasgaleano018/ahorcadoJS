@@ -1,0 +1,67 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background: #19A708;
+    text-align: center;
+    color: #cacaca;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .contenedor{
+        margin: 0 5%;
+        width: 40%;
+    }
+        .contenedor input{
+            display: block;
+            margin: 1% 0;
+            width: 100%;
+            height: 25px;
+            text-align: center;
+        }
+            .contenedor input:focus{
+                outline: none;
+            }
+        .palabra{
+            border: none;
+            padding: 3% 0;
+            font-size: 35px;
+        }
+        .letra{
+            border: none;
+            border-bottom: 4px solid #19A708;
+            font-size: 20px;
+            padding: 3% 0;
+        }
+        .verificar{
+            width: 100%;
+            height: 45px;
+            background: transparent;
+            border: 3px solid #258207;
+            color: #258207;
+            font-size: 115%;
+            border-radius: 12px;
+        }
+            .verificar:hover{
+                background: #258207;
+                color: #fff;
+            }
+@media only screen and (max-width: 600px){
+    img{
+        width: 110%;
+    }
+    .contenedor{
+        width: 80%;
+    }
+    .box{
+        margin: 15% 0;
+    }
+    .verificar{
+        margin: 5% 0;
+    }
+}

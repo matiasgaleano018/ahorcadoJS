@@ -17,12 +17,12 @@ if(indice == 0){
 botonVerificar.addEventListener("click", ()=>{
     if(iniciarJuego == true){
         if(indice == 0){
-            if(letra.value =="c"){
+            if(letra.value.toLowerCase() =="c"){
                 palabra1[0] = "c"
-            }else if(letra.value == "a"){
+            }else if(letra.value.toLowerCase() == "a"){
                 palabra1[1] = "a"
                 palabra1[3] = "a"
-            }else if(letra.value == "s"){
+            }else if(letra.value.toLowerCase() == "s"){
                 palabra1[2] = "s"
             }else{
                 cantidadFallos++;
